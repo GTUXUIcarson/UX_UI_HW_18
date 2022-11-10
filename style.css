@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(43, 41, 45);
+    height: auto;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+main {
+
+}
+
+footer {
+    background-color: #373738;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    font-style: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: auto;
+    outline: 1px solid red;
+
+}
+button {
+    height: 150px;
+    width: 150px;
+}
